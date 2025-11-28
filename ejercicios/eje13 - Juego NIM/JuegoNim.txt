@@ -1,0 +1,13 @@
+Ejercicio UML Nº 7. Juego del NIM
+
+Se desea realizar el diagrama UML para el juego del NIM. Las normas de este juego son muy sencillas. Se colocan sobre la mesa varios palillos (más de 20).
+
+Puede haber varios jugadores (2 o más) y cada jugador podrá quitar 1, 2 ó 3 palillos por turno. Perderá la persona que quite el último palillo.
+
+Realiza el diagrama UML e impleméntalo en Java.
+
+Intenta crear un algoritmo con mentalidad ganadora. Escribe un pseudocódigo de tu estrategia ganadora.
+
+http://myfpschool.com/ejercicio-uml-no-7-el-juego-del-nim/
+http://myfpschool.com/solucion-ejercicio-uml-no-7-el-juego-del-nim/
+

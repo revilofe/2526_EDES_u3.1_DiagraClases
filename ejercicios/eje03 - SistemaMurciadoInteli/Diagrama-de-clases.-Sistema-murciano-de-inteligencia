@@ -1,0 +1,14 @@
+Diagrama de clases. Servicio murciano de inteligencia.
+El servicio murciano de inteligencia ha diseñado una máquina que detecta si una persona está diciendo la verdad o no. Los científicos e investigadores se han dado cuenta que cuando una persona miente primeramente se le acelera el ritmo cardíaco aumentando 1 mmHg su presión arterial. Si esto es así el sistema comenzará a monitorizar la sudoración, si esta supera los quince picolitros al minuto se considerará que puede estar mintiendo o que la pregunta sea embarazosa. Para ello pasados 3 segundos se le hará la misma pregunta y si se nota alguna fluctuación en la respiración se considerará que la pregunta no era embarazosa sino que mentía. Pasados 5 segundos de la pregunta normalmente el sujeto recupera la sudoración y el ritmo cardíaco normal.
+
+Antes de pasar el test, se hace una monitorización de sus constantes vitales (ritmo cardíaco, sudoración y respiración) para tomar nota de los valores normales del individuo. Tras monitorizar, el individuo pasará al estado listo.
+
+Una vez terminado el interrogatorio el estado será de finalizado donde se mostrará una serie de datos los cuales servirán a los agentes murcianos para determinar si el sujeto les estaba mintiendo.
+
+El sistema como se puede ver consta con una serie de sensores de tres tipos: ritmo cardiaco, presión arterial y respiración. Cada uno trabaja con un valor de referencia tomado cuando se monitoriza al sujeto y luego tras una alteración en la medición creará una alerta registrando el valor más alto. Este valor al ser restado al valor de referencia mostrará el incremento sufrido por el sujeto.
+
+ 
+
+Se pide que se elabore un diagrama de clases.
+
+Solución al ejercicio anterior:

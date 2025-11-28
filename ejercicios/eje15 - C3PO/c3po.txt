@@ -1,0 +1,24 @@
+Ejercicio UML C3PO
+5 años ago Posted in:Entornos de desarrollo, UML 0 Author: jcmoreno
+Todo el mundo sabe que C-3PO fue reconstruido a partir de piezas de repuesto por Anakin Skywalker. Anakin fue un esclavo humano que vivía en la ciudad en el mundo del Borde Exterior de Tattooine llamada Mos Espa.
+
+Para montar el sistema central del robot juntó una memoria Caché preconfigurada para solamente este robot, un procesador de vigésima generación algo antiguo y un sistema de persistencia. Como el sistema de persistencia tiene datos de C3PO es imposible colocarlo en otro robot aunque sea de su misma gama. El procesador es estándar con lo cual puede ser intercambiable en caso de fallo.
+La memoria caché tendrá unas dimensiones determinadas en flops.
+
+La memoria caché tiene los datos necesarios para cargar el firmware del robot. También tiene el sistema de ejecución que será cargado desde el sistema de persistencia hasta la memoria caché.
+
+La función de carga del sistema son una serie de instrucciones que ejecuta el procesador y leyendo del sistema de persistencia las carga en la caché.
+El sistema de persistencia tiene 50 veces más flops de capacidad que la memoria caché.
+
+El sistema tiene varias funciones:
+
+Cargar. Que realiza las funciones que ya se han visto.
+Sondear información. Mediante un sensor (ya sea la vista biónica, el oido biónico, ultrasonidos o visión infrarroja).
+Los sensores están sondeando el medio y cuando reciben un estímulo lo registran en sus registros internos.
+Apagar. Apagará el sistema y lo pondrá en standby.
+Procesar información. El sistema al recibir el estímulo se lo pasa al procesador y el se encarga de actuar de forma adecuada. El sistema estará todo el rato sondeando información. Al procesar la información C3PO podrá:
+Hablar.
+Moverse.
+En futuros arreglos Anakin irá incluyendo nuevas funcionalidades.
+
+http://myfpschool.com/ejercicio-uml-c3po/

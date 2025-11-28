@@ -1,0 +1,14 @@
+Ejercicio UML nº 1
+7 años ago Posted in:UML 0 Author: jcmoreno
+Se necesita crear un diagrama UML de clases del siguiente proyecto:
+– Estamos realizando una aplicación que almacena información sobre empresas, empleados y clientes. De los empleados y de los clientes nos interesa el nombre y la fecha de nacimiento. Dada la fecha de nacimiento se necesitaría conocer la edad.
+– De los clientes también nos interesa conocer el teléfono por si necesitamos comunicarnos con ellos.
+– Los empleados responsables se dividen en categorías con lo cual un empleado responsable puede tener a su cargo a varios empleados subordinados.
+– Cualquier empleado tiene un sueldo bruto que se utilizará como base para calcular el sueldo neto.
+– Todos los clientes pertenecen al menos a una empresa.
+
+Realiza el diagrama UML teniendo en cuenta las especificaciones anteriores.
+Si quieres conocer la solución la tienes aquí.
+
+http://myfpschool.com/ejercicio-uml-no-1/
+http://myfpschool.com/solucion-al-ejercicio-no-1/

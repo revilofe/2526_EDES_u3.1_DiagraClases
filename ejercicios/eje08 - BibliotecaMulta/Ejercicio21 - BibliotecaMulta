@@ -1,0 +1,19 @@
+Se necesita crear un diagrama UML de clases del siguiente proyecto:
+-Estamos informatizando una biblioteca con una serie de libros (ejemplares). Los libros pueden ser de un tipo concreto (novela, poesía o cuentos).
+– Los libros obviamente podrán estar disponibles, prestados o retrasados (el socio no lo ha entregado y será multado por ello).
+– De los autores necesitamos conocer su nombre y fecha de nacimiento (para clasificarlos en un futuro como contemporaneos o clásicos).
+– Se necesita saber la edad de los autores.
+los lectores pueden tener como mucho 3 libros en préstamo. Mas de tres libros no es posible tener prestados.
+– La biblioteca presta un libro como mucho 30 días. Si te retrasas de la fecha de entrega máxima se penaliza con 3 días de multa por cada día de retraso.
+– Además cualquier socio que sea multado no podrá coger ningún libro mientras dure la multa.
+– Se necesita implementar los métodos de préstamo y devolución.
+– Para devolver un libro al menos tiene que haber un préstamo.
+– Para prestar un libro el socio no puede tener ninguna multa.
+
+Realiza el diagrama UML teniendo en cuenta las especificaciones anteriores.
+
+http://myfpschool.com/ejercicio-uml-no-2/
+http://myfpschool.com/solucion-al-ejercicio-no-2/
+
+
+Si quieres conocer la solución la tienes aquí.

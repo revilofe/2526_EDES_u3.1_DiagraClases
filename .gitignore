@@ -1,0 +1,55 @@
+# Ignorando ficheros de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+# Ignorando ficheros de sistema
+.DS_Store
+Thumbs.db
+# Ignorando dependencias de Node.js
+node_modules/
+# Ignorando ficheros de build
+dist/
+build/
+# Ignorando ficheros de logs
+*.log
+# Ignorando ficheros de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Ignorando ficheros de cobertura de tests
+coverage/
+# Ignorando ficheros temporales
+*.tmp
+*.temp
+# Ignorando ficheros de caché
+.cache/
+# Ignorando ficheros de paquetes
+*.tgz
+# Ignorando ficheros de configuración de Docker
+docker-compose.override.yml
+# Ignorando ficheros de configuración de Kubernetes
+*.kubeconfig
+# Ignorando ficheros de configuración de CI/CD
+.circleci/
+.github/workflows/
+.gitlab-ci.yml
+# Ignorando ficheros de documentación generada
+docs/
+docs/_build/
+# Ignorando ficheros de bases de datos locales
+*.sqlite
+*.db
+# Ignorando ficheros de caché de Python
+__pycache__/
+*.pyc
+# Ignorando ficheros de paquetes de Python
+*.egg-info/
+dist/
+build/
+# Ignorando ficheros de entorno de Python
+.env/
+# Ignorando ficheros de configuración de Java
